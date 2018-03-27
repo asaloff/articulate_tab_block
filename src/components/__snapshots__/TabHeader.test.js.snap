@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabHeader renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TabHeader
+    selectTab={[Function]}
+    selectedTab={
+        Object {
+            "content": Array [
+              Object {
+                "content": "Every creative endeavor requires that you take risks. If you try and don't succeed, you've still learned something. It took Thomas Edison more than 10,000 tries to invent a viable lightbulb. You're not failing. You're discovering what doesn't work.",
+                "tag": "p",
+              },
+              Object {
+                "content": "https://cdn.articulate.com/rise/courses/_Af0P0L1E-1akg7PhqRPNyg0uRFD0pUp/q0r7xIVMCo4RkD5A.gif",
+                "tag": "img",
+              },
+            ],
+            "id": 1,
+            "title": "Embracing Discovery",
+          }
+    }
+    tabs={
+        Array [
+            Object {
+              "content": Array [
+                Object {
+                  "content": "Every creative endeavor requires that you take risks. If you try and don't succeed, you've still learned something. It took Thomas Edison more than 10,000 tries to invent a viable lightbulb. You're not failing. You're discovering what doesn't work.",
+                  "tag": "p",
+                },
+                Object {
+                  "content": "https://cdn.articulate.com/rise/courses/_Af0P0L1E-1akg7PhqRPNyg0uRFD0pUp/q0r7xIVMCo4RkD5A.gif",
+                  "tag": "img",
+                },
+              ],
+              "id": 1,
+              "title": "Embracing Discovery",
+            },
+            Object {
+              "content": Array [
+                Object {
+                  "content": "To spark creativity, feed your brain material like you're cramming for a tough test. Then stop thinking about the problem you want to solve. Go surfing or take a leisurely walk. Research shows that letting your mind wander fosters creativity.",
+                  "tag": "p",
+                },
+                Object {
+                  "content": "It’s also found that meditation helps you spot and solve problems in creative ways. It promotes divergent thinking that gets novel ideas flowing. According to these studies, meditation also makes you more open to considering new solutions. Time to breathe.",
+                  "tag": "p",
+                },
+              ],
+              "id": 2,
+              "title": "Gaining Insight",
+            },
+            Object {
+              "content": Array [
+                Object {
+                  "content": "No creative process is truly complete until it manifests a tangible reality. Whether your idea is an action or a physical creation, bringing it to life will likely involve the hard work of iteration, testing, and refinement.",
+                  "tag": "p",
+                },
+                Object {
+                  "content": "Just be wary of perfectionism. Push yourself to share your creations with others. By maintaining an open stance, you’ll be able to learn from their feedback. Consider their responses new material that you can draw from the next time you’re embarking on a creative endeavor.",
+                  "tag": "p",
+                },
+              ],
+              "id": 3,
+              "title": "Making it Real",
+            },
+            Object {
+              "content": Array [
+                Object {
+                  "content": "Every creative endeavor requires that you take risks. If you try and don't succeed, you've still learned something. It took Thomas Edison more than 10,000 tries to invent a viable lightbulb. You're not failing. You're discovering what doesn't work.",
+                  "tag": "p",
+                },
+                Object {
+                  "content": "https://cdn.articulate.com/rise/courses/_Af0P0L1E-1akg7PhqRPNyg0uRFD0pUp/kcA21C-HvSKNkEmO.png",
+                  "tag": "img",
+                },
+              ],
+              "id": 4,
+              "title": "Love the Work",
+            },
+            Object {
+              "content": Array [
+                Object {
+                  "content": "Every creative endeavor requires that you take risks. If you try and don't succeed, you've still learned something. It took Thomas Edison more than 10,000 tries to invent a viable lightbulb. You're not failing. You're discovering what doesn't work.",
+                  "tag": "p",
+                },
+              ],
+              "id": 5,
+              "title": "Have Fun",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <button
+          className="btn scroll-left "
+          onClick={[Function]}
+>
+          &lt;
+</button>,
+        Array [
+          <span
+            className="tab-title selected"
+            id={1}
+            onClick={[Function]}
+>
+            Embracing Discovery
+</span>,
+          <span
+            className="tab-title "
+            id={2}
+            onClick={[Function]}
+>
+            Gaining Insight
+</span>,
+          <span
+            className="tab-title "
+            id={3}
+            onClick={[Function]}
+>
+            Making it Real
+</span>,
+          <span
+            className="tab-title "
+            id={4}
+            onClick={[Function]}
+>
+            Love the Work
+</span>,
+          <span
+            className="tab-title "
+            id={5}
+            onClick={[Function]}
+>
+            Have Fun
+</span>,
+        ],
+        <button
+          className="btn scroll-right "
+          onClick={[Function]}
+>
+          &gt;
+</button>,
+      ],
+      "className": "TabHeader ",
+      "onMouseEnter": [Function],
+      "onMouseLeave": [Function],
+      "onScroll": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "<",
+          "className": "btn scroll-left ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "<",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Embracing Discovery",
+          "className": "tab-title selected",
+          "id": 1,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Embracing Discovery",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Gaining Insight",
+          "className": "tab-title ",
+          "id": 2,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Gaining Insight",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Making it Real",
+          "className": "tab-title ",
+          "id": 3,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Making it Real",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Love the Work",
+          "className": "tab-title ",
+          "id": 4,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Love the Work",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Have Fun",
+          "className": "tab-title ",
+          "id": 5,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Have Fun",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": ">",
+          "className": "btn scroll-right ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": ">",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="btn scroll-left "
+            onClick={[Function]}
+>
+            &lt;
+</button>,
+          Array [
+            <span
+              className="tab-title selected"
+              id={1}
+              onClick={[Function]}
+>
+              Embracing Discovery
+</span>,
+            <span
+              className="tab-title "
+              id={2}
+              onClick={[Function]}
+>
+              Gaining Insight
+</span>,
+            <span
+              className="tab-title "
+              id={3}
+              onClick={[Function]}
+>
+              Making it Real
+</span>,
+            <span
+              className="tab-title "
+              id={4}
+              onClick={[Function]}
+>
+              Love the Work
+</span>,
+            <span
+              className="tab-title "
+              id={5}
+              onClick={[Function]}
+>
+              Have Fun
+</span>,
+          ],
+          <button
+            className="btn scroll-right "
+            onClick={[Function]}
+>
+            &gt;
+</button>,
+        ],
+        "className": "TabHeader ",
+        "onMouseEnter": [Function],
+        "onMouseLeave": [Function],
+        "onScroll": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "<",
+            "className": "btn scroll-left ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "<",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Embracing Discovery",
+            "className": "tab-title selected",
+            "id": 1,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Embracing Discovery",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Gaining Insight",
+            "className": "tab-title ",
+            "id": 2,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Gaining Insight",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Making it Real",
+            "className": "tab-title ",
+            "id": 3,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Making it Real",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Love the Work",
+            "className": "tab-title ",
+            "id": 4,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Love the Work",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Have Fun",
+            "className": "tab-title ",
+            "id": 5,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Have Fun",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": ">",
+            "className": "btn scroll-right ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": ">",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

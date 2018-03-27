@@ -1,0 +1,25 @@
+body {
+  padding: 30px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #3f4346;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  color: #3f4346;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
