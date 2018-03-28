@@ -2,6 +2,7 @@
   "name": "articulate_tab_block",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://asaloff.github.io/articulate_tab_block",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "react": "^16.2.0",
@@ -16,10 +17,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1"
+    "enzyme-adapter-react-16": "^1.1.1",
+    "gh-pages": "^1.1.0"
   }
 }
