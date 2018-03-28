@@ -3,11 +3,7 @@ import * as constants from './constants';
 
 it('creates an action to set the selected tab', () => {
   const id = 1;
-  expect(actions.selectTab(id))
-    .toEqual({
-      type: constants.SELECT_TAB,
-      id
-    });
+  expect(actions.selectTab(id)).toEqual({ type: constants.SELECT_TAB, id });
 });
 
 it('creates an action to set a full page image', () => {
