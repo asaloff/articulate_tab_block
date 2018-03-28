@@ -1,10 +1,18 @@
 import { connect } from 'react-redux';
 import TabContent from '../components/TabContent';
+import { removeFullPageImage } from '../actions/tabs';
 
 const mapStateToProps = (state) => {
   return {
-    selectedTab: state.selectedTab
+    selectedTab: state.selectedTab,
+    fullPageImage: state.fullPageImage
   };
 };
 
-export default connect(mapStateToProps)(TabContent);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    removeFullPageImage: () => dispatch(removeFullPageImage())
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(TabContent);

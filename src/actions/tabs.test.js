@@ -9,3 +9,11 @@ it('creates an action to set the selected tab', () => {
       id
     });
 });
+
+it('creates an action to set a full page image', () => {
+  expect(actions.setFullPageImage()).toEqual({ type: constants.SET_FULL_PAGE_IMAGE });
+});
+
+it('creates an action to remove a full page image', () => {
+  expect(actions.removeFullPageImage()).toEqual({ type: constants.REMOVE_FULL_PAGE_IMAGE });
+});

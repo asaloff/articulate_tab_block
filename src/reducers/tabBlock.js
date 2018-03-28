@@ -3,7 +3,8 @@ import * as constants from '../actions/constants';
 
 const initialState = {
   tabs: tabData.tabs,
-  selectedTab: tabData.tabs[0]
+  selectedTab: tabData.tabs[0],
+  fullPageImage: false
 };
 
 const tabBlock = (state = initialState, action) => {
@@ -12,6 +13,16 @@ const tabBlock = (state = initialState, action) => {
       return {
         ...state,
         selectedTab: tabData.tabs.find(tab => tab.id === action.id)
+      };
+    case constants.SET_FULL_PAGE_IMAGE:
+      return {
+        ...state,
+        fullPageImage: true
+      };
+    case constants.REMOVE_FULL_PAGE_IMAGE:
+      return {
+        ...state,
+        fullPageImage: false
       };
     default:
       return state;

@@ -18,7 +18,7 @@
 }
 
 .TabHeader::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .TabHeader.noScroll {
@@ -90,11 +90,44 @@
   padding: 20px 40px 40px;
 }
 
-.TabContentElement {
+.TabContent {
   opacity: 0;
 }
 
-.TabContentElement.visible {
-  transition: opacity .5s ease-in;
+.TabContent.visible {
+  transition: opacity .2s ease-in;
   opacity: 1;
 }
+
+.backdrop.cover {
+  z-index: 1;
+  transition: opacity .2s ease-in;
+  opacity: 1;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+}
+
+img.TabContentElement {
+  cursor: zoom-in;
+  z-index: 99;
+}
+
+img.TabContentElement.selected {
+  max-height: 80%;
+  max-width: 80%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  cursor: zoom-out;
+  transform: translate(-50%, -50%);
+}
+

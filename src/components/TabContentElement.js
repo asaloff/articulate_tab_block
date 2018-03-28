@@ -4,41 +4,28 @@ import PropTypes from 'prop-types';
 class TabContentElement extends Component {
   constructor() {
     super();
-    this.state = { visible: false };
-
-    this.makeVisible = this.makeVisible.bind(this);
+    this.handleImageResize = this.handleImageResize.bind(this);
   }
 
-  componentDidMount() {
-    this.makeVisible();
-  }
+  handleImageResize(e) {
+    const { fullPageImage, setFullPageImage, removeFullPageImage } = this.props;
 
-  componentWillReceiveProps() {
-    this.setState({ visible: false });
-  }
-
-  componentDidUpdate() {
-    if (!this.state.visible) {
-      this.makeVisible();
-    }
-  }
-
-  makeVisible() {
-    setTimeout(() => {
-      this.setState({ visible: true });
-    }, 0);
+    const classes = e.target.classList;
+    classes.contains('selected') ? classes.remove('selected') : classes.add('selected');
+    fullPageImage ? removeFullPageImage() : setFullPageImage();
   }
 
   render() {
     const { content } = this.props;
     let children;
     const props = {
-      className: `TabContentElement ${ this.state.visible && 'visible' }`
+      className: `TabContentElement`
     };
 
     if (content.tag === 'img') {
       children = null;
       props.src = content.content;
+      props.onClick = this.handleImageResize;
     } else {
       children = content.content;
     }
@@ -48,7 +35,10 @@ class TabContentElement extends Component {
 }
 
 TabContentElement.propTypes = {
-  content: PropTypes.object.isRequired
+  content: PropTypes.object.isRequired,
+  fullPageImage: PropTypes.bool.isRequired,
+  setFullPageImage: PropTypes.func.isRequired,
+  removeFullPageImage: PropTypes.func.isRequired
 };
 
 export default TabContentElement;

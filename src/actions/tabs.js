@@ -6,3 +6,11 @@ export function selectTab(id) {
     id
   };
 }
+
+export function setFullPageImage() {
+  return { type: constants.SET_FULL_PAGE_IMAGE };
+}
+
+export function removeFullPageImage() {
+  return { type: constants.REMOVE_FULL_PAGE_IMAGE };
+}
