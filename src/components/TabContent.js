@@ -48,7 +48,7 @@ class TabContent extends Component {
         ))}
         <span
           className={`backdrop ${fullPageImage ? 'cover' : ''}`}
-          onClick={fullPageImage && this.handleImageResize}
+          onClick={fullPageImage ? this.handleImageResize : undefined}
         >
         </span>
       </div>
