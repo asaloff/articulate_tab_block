@@ -5,7 +5,8 @@ import { selectTab } from '../actions/tabs';
 const mapStateToProps = (state) => {
   return {
     tabs: state.tabs,
-    selectedTab: state.selectedTab
+    selectedTab: state.selectedTab,
+    themeStyles: state.themeStyles
   };
 };
 

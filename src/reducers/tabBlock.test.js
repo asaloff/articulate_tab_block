@@ -6,7 +6,8 @@ describe('tabBlock reducer', () => {
   const initialState = {
     tabs: tabData.tabs,
     selectedTab: tabData.tabs[0],
-    fullPageImage: false
+    fullPageImage: false,
+    themeStyles: tabData.themeStyles
   };
 
   describe('when initializing', () => {

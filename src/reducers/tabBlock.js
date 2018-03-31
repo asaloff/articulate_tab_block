@@ -4,7 +4,8 @@ import * as constants from '../actions/constants';
 const initialState = {
   tabs: tabData.tabs,
   selectedTab: tabData.tabs[0],
-  fullPageImage: false
+  fullPageImage: false,
+  themeStyles: tabData.themeStyles
 };
 
 const tabBlock = (state = initialState, action) => {

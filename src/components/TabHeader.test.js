@@ -8,7 +8,8 @@ describe('TabHeader', () => {
   const props = {
     tabs: tabData.tabs,
     selectedTab: tabData.tabs[0],
-    selectTab: mockSelectTab
+    selectTab: mockSelectTab,
+    themeStyles: tabData.themeStyles
   };
   const tabHeader = shallow(<TabHeader {...props} />);
 
@@ -34,3 +35,5 @@ describe('TabHeader', () => {
     });
   });
 });
+
+

@@ -1,4 +1,8 @@
 {
+  "themeStyles": {
+    "backgroundColor": "#BADA55",
+    "color": "#565656"
+  },
   "tabs": [
     {
       "id": 1,

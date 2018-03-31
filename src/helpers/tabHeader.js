@@ -4,7 +4,7 @@ export function setNoScroll(component) {
   that.setState({
     headerFlex: false
   }, () => {
-    const header = that.state.headerNode;
+    const header = that.headerNode;
     if (header) {
       const needsScroll = header.scrollWidth !== header.clientWidth;
       if (!needsScroll) {
@@ -15,10 +15,12 @@ export function setNoScroll(component) {
 }
 
 export function displayScrollArrows(component) {
-  const header = component.state.headerNode;
+  const header = component.headerNode;
+
   const needsScroll = header.scrollWidth !== header.clientWidth;
   const atLeftMostPoint = header.scrollLeft === header.scrollWidth - header.clientWidth;
   const scrollPosition = header.scrollLeft;
+
 
   if (!scrollPosition && needsScroll) {
     component.setState({ leftVisible: false, rightVisible: true });
@@ -36,7 +38,7 @@ export function hideScrollArrows(component) {
 }
 
 export function scrollLeft(component) {
-  component.state.headerNode.scrollBy({
+  component.headerNode.scrollBy({
     top: 0,
     left: -400,
     behavior: 'smooth'
@@ -44,7 +46,7 @@ export function scrollLeft(component) {
 }
 
 export function scrollRight(component) {
-  component.state.headerNode.scrollBy({
+  component.headerNode.scrollBy({
     top: 0,
     left: 400,
     behavior: 'smooth'

@@ -69,16 +69,15 @@
   color: white;
   -webkit-box-shadow: none;
   box-shadow: none;
+  display: none;
 }
 
 .btn.scroll-left {
   left: 10px;
-  display: none;
 }
 
 .btn.scroll-right {
   right: 10px;
-  display: none;
 }
 
 .btn.scroll-left.visible, .btn.scroll-right.visible {

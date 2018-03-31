@@ -15,7 +15,6 @@ class TabHeader extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      this.setState({ headerNode: document.querySelector('.TabHeader') });
       helpers.setNoScroll(this);
     }, 0);
 
@@ -27,8 +26,15 @@ class TabHeader extends Component {
   }
 
   render() {
-    const { tabs, selectedTab, selectTab } = this.props;
+    const { tabs, selectedTab, selectTab, themeStyles } = this.props;
     const { leftVisible, rightVisible, headerFlex } = this.state;
+
+    const styles = {
+      tab: {
+        textAlign: 'center',
+        flexGrow: 1
+      }
+    };
 
     return (
       <div
@@ -36,6 +42,7 @@ class TabHeader extends Component {
         onMouseEnter={() => helpers.displayScrollArrows(this)}
         onMouseLeave={() => helpers.hideScrollArrows(this)}
         onScroll={() => helpers.displayScrollArrows(this)}
+        ref={(elem) => { this.headerNode = elem; }}
       >
         <button
           className={`btn scroll-left ${leftVisible ? 'visible' : ''}`}
@@ -48,9 +55,11 @@ class TabHeader extends Component {
             key={tab.id}
             id={tab.id}
             className={`tab-title ${tab.id === selectedTab.id ? 'selected' : ''}`}
+            style={Object.assign({}, styles.tab, tab.id !== selectedTab.id && themeStyles)}
             onClick={() => selectTab(tab.id)}
           >
             {tab.title}
+
           </span>
         ))}
         <button
@@ -67,7 +76,8 @@ class TabHeader extends Component {
 TabHeader.propTypes = {
   tabs: PropTypes.array.isRequired,
   selectedTab: PropTypes.object.isRequired,
-  selectTab: PropTypes.func.isRequired
+  selectTab: PropTypes.func.isRequired,
+  themeStyles: PropTypes.object.isRequired
 };
 
 export default TabHeader;

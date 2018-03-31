@@ -57,7 +57,7 @@ ShallowWrapper {
         ],
         <span
           className="backdrop "
-          onClick={false}
+          onClick={undefined}
 />,
       ],
       "className": "TabContent ",
@@ -98,7 +98,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "className": "backdrop ",
-          "onClick": false,
+          "onClick": undefined,
         },
         "ref": null,
         "rendered": null,
@@ -134,7 +134,7 @@ ShallowWrapper {
           ],
           <span
             className="backdrop "
-            onClick={false}
+            onClick={undefined}
 />,
         ],
         "className": "TabContent ",
@@ -175,7 +175,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "className": "backdrop ",
-            "onClick": false,
+            "onClick": undefined,
           },
           "ref": null,
           "rendered": null,

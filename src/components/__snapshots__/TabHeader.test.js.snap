@@ -92,6 +92,12 @@ ShallowWrapper {
             },
           ]
     }
+    themeStyles={
+        Object {
+            "backgroundColor": "#BADA55",
+            "color": "#565656",
+          }
+    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -117,6 +123,7 @@ ShallowWrapper {
             className="tab-title selected"
             id={1}
             onClick={[Function]}
+            style={Object {}}
 >
             Embracing Discovery
 </span>,
@@ -124,6 +131,12 @@ ShallowWrapper {
             className="tab-title "
             id={2}
             onClick={[Function]}
+            style={
+                        Object {
+                                    "backgroundColor": "#BADA55",
+                                    "color": "#565656",
+                                  }
+            }
 >
             Gaining Insight
 </span>,
@@ -131,6 +144,12 @@ ShallowWrapper {
             className="tab-title "
             id={3}
             onClick={[Function]}
+            style={
+                        Object {
+                                    "backgroundColor": "#BADA55",
+                                    "color": "#565656",
+                                  }
+            }
 >
             Making it Real
 </span>,
@@ -138,6 +157,12 @@ ShallowWrapper {
             className="tab-title "
             id={4}
             onClick={[Function]}
+            style={
+                        Object {
+                                    "backgroundColor": "#BADA55",
+                                    "color": "#565656",
+                                  }
+            }
 >
             Love the Work
 </span>,
@@ -145,6 +170,12 @@ ShallowWrapper {
             className="tab-title "
             id={5}
             onClick={[Function]}
+            style={
+                        Object {
+                                    "backgroundColor": "#BADA55",
+                                    "color": "#565656",
+                                  }
+            }
 >
             Have Fun
 </span>,
@@ -161,7 +192,7 @@ ShallowWrapper {
       "onMouseLeave": [Function],
       "onScroll": [Function],
     },
-    "ref": null,
+    "ref": [Function],
     "rendered": Array [
       Object {
         "instance": null,
@@ -185,6 +216,7 @@ ShallowWrapper {
           "className": "tab-title selected",
           "id": 1,
           "onClick": [Function],
+          "style": Object {},
         },
         "ref": null,
         "rendered": "Embracing Discovery",
@@ -199,6 +231,10 @@ ShallowWrapper {
           "className": "tab-title ",
           "id": 2,
           "onClick": [Function],
+          "style": Object {
+            "backgroundColor": "#BADA55",
+            "color": "#565656",
+          },
         },
         "ref": null,
         "rendered": "Gaining Insight",
@@ -213,6 +249,10 @@ ShallowWrapper {
           "className": "tab-title ",
           "id": 3,
           "onClick": [Function],
+          "style": Object {
+            "backgroundColor": "#BADA55",
+            "color": "#565656",
+          },
         },
         "ref": null,
         "rendered": "Making it Real",
@@ -227,6 +267,10 @@ ShallowWrapper {
           "className": "tab-title ",
           "id": 4,
           "onClick": [Function],
+          "style": Object {
+            "backgroundColor": "#BADA55",
+            "color": "#565656",
+          },
         },
         "ref": null,
         "rendered": "Love the Work",
@@ -241,6 +285,10 @@ ShallowWrapper {
           "className": "tab-title ",
           "id": 5,
           "onClick": [Function],
+          "style": Object {
+            "backgroundColor": "#BADA55",
+            "color": "#565656",
+          },
         },
         "ref": null,
         "rendered": "Have Fun",
@@ -280,6 +328,7 @@ ShallowWrapper {
               className="tab-title selected"
               id={1}
               onClick={[Function]}
+              style={Object {}}
 >
               Embracing Discovery
 </span>,
@@ -287,6 +336,12 @@ ShallowWrapper {
               className="tab-title "
               id={2}
               onClick={[Function]}
+              style={
+                            Object {
+                                          "backgroundColor": "#BADA55",
+                                          "color": "#565656",
+                                        }
+              }
 >
               Gaining Insight
 </span>,
@@ -294,6 +349,12 @@ ShallowWrapper {
               className="tab-title "
               id={3}
               onClick={[Function]}
+              style={
+                            Object {
+                                          "backgroundColor": "#BADA55",
+                                          "color": "#565656",
+                                        }
+              }
 >
               Making it Real
 </span>,
@@ -301,6 +362,12 @@ ShallowWrapper {
               className="tab-title "
               id={4}
               onClick={[Function]}
+              style={
+                            Object {
+                                          "backgroundColor": "#BADA55",
+                                          "color": "#565656",
+                                        }
+              }
 >
               Love the Work
 </span>,
@@ -308,6 +375,12 @@ ShallowWrapper {
               className="tab-title "
               id={5}
               onClick={[Function]}
+              style={
+                            Object {
+                                          "backgroundColor": "#BADA55",
+                                          "color": "#565656",
+                                        }
+              }
 >
               Have Fun
 </span>,
@@ -324,7 +397,7 @@ ShallowWrapper {
         "onMouseLeave": [Function],
         "onScroll": [Function],
       },
-      "ref": null,
+      "ref": [Function],
       "rendered": Array [
         Object {
           "instance": null,
@@ -348,6 +421,7 @@ ShallowWrapper {
             "className": "tab-title selected",
             "id": 1,
             "onClick": [Function],
+            "style": Object {},
           },
           "ref": null,
           "rendered": "Embracing Discovery",
@@ -362,6 +436,10 @@ ShallowWrapper {
             "className": "tab-title ",
             "id": 2,
             "onClick": [Function],
+            "style": Object {
+              "backgroundColor": "#BADA55",
+              "color": "#565656",
+            },
           },
           "ref": null,
           "rendered": "Gaining Insight",
@@ -376,6 +454,10 @@ ShallowWrapper {
             "className": "tab-title ",
             "id": 3,
             "onClick": [Function],
+            "style": Object {
+              "backgroundColor": "#BADA55",
+              "color": "#565656",
+            },
           },
           "ref": null,
           "rendered": "Making it Real",
@@ -390,6 +472,10 @@ ShallowWrapper {
             "className": "tab-title ",
             "id": 4,
             "onClick": [Function],
+            "style": Object {
+              "backgroundColor": "#BADA55",
+              "color": "#565656",
+            },
           },
           "ref": null,
           "rendered": "Love the Work",
@@ -404,6 +490,10 @@ ShallowWrapper {
             "className": "tab-title ",
             "id": 5,
             "onClick": [Function],
+            "style": Object {
+              "backgroundColor": "#BADA55",
+              "color": "#565656",
+            },
           },
           "ref": null,
           "rendered": "Have Fun",

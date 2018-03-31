@@ -19,7 +19,7 @@ class TabContentElement extends Component {
     const { content } = this.props;
     let children;
     const props = {
-      className: `TabContentElement`
+      className: 'TabContentElement'
     };
 
     if (content.tag === 'img') {
